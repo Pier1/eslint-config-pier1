@@ -1,0 +1,42 @@
+{
+  "name": "eslint-config-pier1",
+  "version": "0.0.0",
+  "description": "ESLint shareable config for Pier 1 Imports",
+  "license": "Apache-2.0",
+  "repository": "pier1/eslint-config-pier1",
+  "author": "Pier 1 Imports, Inc.",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "pier1",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "jscs",
+    "jshint",
+    "jslint",
+    "eslint",
+    "validate",
+    "code style",
+    "strict",
+    "check",
+    "checker",
+    "verify",
+    "enforce",
+    "hint"
+  ],
+  "devDependencies": {
+    "eslint": "^3.8.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=3.8.1"
+  }
+}
