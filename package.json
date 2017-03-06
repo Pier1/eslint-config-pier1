@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pier1",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "ESLint shareable config for Pier 1 Imports",
   "license": "Apache-2.0",
   "repository": "pier1/eslint-config-pier1",

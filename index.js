@@ -109,7 +109,7 @@ module.exports = {
         // 'no-loop-func': 0,
         // 'no-magic-numbers': 0,
         'no-multi-spaces': 2,
-        'no-multi-str': 2,
+        'no-multi-str': 0,
         // 'no-new-func': 0,
         'no-new-wrappers': 2,
         // 'no-new': 0,
@@ -204,7 +204,7 @@ module.exports = {
         // 'lines-around-comment': 0,
         // 'lines-around-directive': 0,
         // 'max-depth': 0,
-        'max-len': [2, {
+        'max-len': [0, {
             code: 100,
             tabWidth: 2,
             ignoreUrls: true,
