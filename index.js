@@ -204,7 +204,7 @@ module.exports = {
         // 'lines-around-comment': 0,
         // 'lines-around-directive': 0,
         // 'max-depth': 0,
-        'max-len': [0, {
+        'max-len': [1, {
             code: 100,
             tabWidth: 2,
             ignoreUrls: true,
@@ -245,7 +245,7 @@ module.exports = {
         'object-curly-spacing': 2,
         // 'object-property-newline': 0,
         // 'one-var-declaration-per-line': 0,
-        'one-var': [2, {
+        'one-var': [1, {
             var: 'always',
             let: 'always',
             const: 'always',
@@ -298,7 +298,7 @@ module.exports = {
         // 'no-useless-computed-key': 0,
         // 'no-useless-constructor': 0,
         // 'no-useless-rename': 0,
-        'no-var': 2,
+        'no-var': 1,
         // 'object-shorthand': 0,
         // 'prefer-arrow-callback': 0,
         // 'prefer-const': 0,
@@ -314,8 +314,12 @@ module.exports = {
         // 'template-curly-spacing': 0,
         'yield-star-spacing': [2, 'after'],
     },
-  'globals': {
-    'module': true,
-    'require': true,
-  }
+    'env': {
+      'browser': true,
+      'node': true,
+    },
+    'globals': {
+      'module': true,
+      'require': true,
+    },
 };
