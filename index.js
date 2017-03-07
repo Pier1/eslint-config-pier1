@@ -290,7 +290,7 @@ module.exports = {
     // 'space-in-parens': 0,
     // 'space-infix-ops': 0,
     // 'space-unary-ops': 0,
-    'spaced-comment': [2, 'always'],
+    // 'spaced-comment': 0,
     // 'unicode-bom': 0,
     // 'wrap-regex': 0,
 
@@ -344,8 +344,8 @@ module.exports = {
     'PIPELET_NEXT': true,
     'PipelineDictionary': true,
     'require': true,
+    'ServiceRegistry': true,
     'Site': true,
-    'window': true,
   },
   'parser': 'babel-eslint',
 };
