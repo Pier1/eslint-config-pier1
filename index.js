@@ -22,51 +22,51 @@ module.exports = {
     // rules page. All rules are listed to make it easier to keep in sync
     // as new ESLint rules are added.
     // http://eslint.org/docs/rules/
-    // - Rules in the `eslint:recommended` ruleset that aren't are listed but commented out (so
+    // - Rules in the `eslint:recommended` ruleset that aren't listed but commented out (so
     //   they don't override a base ruleset).
-    // - Rules that are recommended but contradict the Pier 1 Imports styleguide
-    //   are explicitly set to the Pier 1 Imports styleguide value.
+    // - Rules that are recommended but contradict Pier 1 Imports
+    //   are explicitly set to the Pier 1 Imports value.
 
     // Possible Errors
     // http://eslint.org/docs/rules/#possible-errors
     // ---------------------------------------------
-    // 'no-cond-assign': 2, // eslint:recommended
-    // 'no-console': 2, // eslint:recommended
-    // 'no-constant-condition': 2, // eslint:recommended
-    // 'no-control-regex': 2, // eslint:recommended
-    // 'no-debugger': 2, // eslint:recommended
-    // 'no-dupe-args': 2, // eslint:recommended
-    // 'no-dupe-keys': 2, // eslint:recommended
-    // 'no-duplicate-case': 2, // eslint:recommended
-    // 'no-empty-character-class': 2, // eslint:recommended
-    // 'no-empty': 2, // eslint:recommended
-    // 'no-ex-assign': 2, // eslint:recommended
-    // 'no-extra-boolean-cast': 2, // eslint:recommended
+    // 'no-cond-assign': 2,
+    // 'no-console': 2,
+    // 'no-constant-condition': 2,
+    // 'no-control-regex': 2,
+    // 'no-debugger': 2,
+    // 'no-dupe-args': 2,
+    // 'no-dupe-keys': 2,
+    // 'no-duplicate-case': 2,
+    // 'no-empty-character-class': 2,
+    // 'no-empty': 2,
+    // 'no-ex-assign': 2,
+    // 'no-extra-boolean-cast': 2,
     // 'no-extra-parens': 0,
-    // 'no-extra-semi': 2, // eslint:recommended
-    // 'no-func-assign': 2, // eslint:recommended
-    // 'no-inner-declarations': 2, // eslint:recommended
-    // 'no-invalid-regexp': 2, // eslint:recommended
-    // 'no-irregular-whitespace': 2, // eslint:recommended
-    // 'no-obj-calls': 2, // eslint:recommended
+    // 'no-extra-semi': 2,
+    // 'no-func-assign': 2,
+    // 'no-inner-declarations': 2,
+    // 'no-invalid-regexp': 2,
+    // 'no-irregular-whitespace': 2,
+    // 'no-obj-calls': 2,
     // 'no-prototype-builtins': 0,
-    // 'no-regex-spaces': 2, // eslint:recommended
-    // 'no-sparse-arrays': 2, // eslint:recommended
+    // 'no-regex-spaces': 2,
+    // 'no-sparse-arrays': 2,
     // 'no-template-curly-in-string': 0,
-    // 'no-unexpected-multiline': 2, // eslint:recommended
-    // 'no-unreachable': 2, // eslint:recommended
-    // 'no-unsafe-finally': 2, // eslint:recommended
+    // 'no-unexpected-multiline': 2,
+    // 'no-unreachable': 2,
+    // 'no-unsafe-finally': 2,
     // 'no-unsafe-negation': 0,
-    // 'use-isnan': 2 // eslint:recommended
+    // 'use-isnan': 2
     'valid-jsdoc': [
       1, {
         requireParamDescription: false,
         requireReturnDescription: false,
         requireReturn: false,
-        prefer: { returns: 'return' },
+        prefer: {returns: 'return'},
       }
     ],
-    // 'valid-typeof': 2 // eslint:recommended
+    // 'valid-typeof': 2
 
     // Best Practices
     // http://eslint.org/docs/rules/#best-practices
@@ -87,17 +87,17 @@ module.exports = {
     'guard-for-in': 2,
     // 'no-alert': 0,
     'no-caller': 2,
-    // 'no-case-declarations': 2, // eslint:recommended
+    // 'no-case-declarations': 2,
     // 'no-div-regex': 0,
     // 'no-else-return': 0,
     // 'no-empty-function': 0,
-    // 'no-empty-pattern': 2, // eslint:recommended
+    // 'no-empty-pattern': 2,
     // 'no-eq-null': 0,
     // 'no-eval': 0,
     'no-extend-native': 2,
     'no-extra-bind': 2,
     // 'no-extra-label': 0,
-    // 'no-fallthrough': 2, // eslint:recommended
+    // 'no-fallthrough': 2,
     // 'no-floating-decimal': 0,
     // 'no-global-assign': 0,
     // 'no-implicit-coercion': 0,
@@ -115,19 +115,19 @@ module.exports = {
     'no-new-wrappers': 2,
     // 'no-new': 0,
     // 'no-octal-escape': 0,
-    // 'no-octal': 2, // eslint:recommended
+    // 'no-octal': 2,
     // 'no-param-reassign': 0,
     // 'no-proto': 0,
-    // 'no-redeclare': 2, // eslint:recommended
+    // 'no-redeclare': 2,
     // 'no-return-assign': 0,
     // 'no-script-url': 0,
-    // 'no-self-assign': 2, // eslint:recommended
+    // 'no-self-assign': 2,
     // 'no-self-compare': 0,
     // 'no-sequences': 0,
-    'no-throw-literal': 2, // eslint:recommended
+    'no-throw-literal': 2,
     // 'no-unmodified-loop-condition': 0,
     // 'no-unused-expressions': 0,
-    // 'no-unused-labels': 2, // eslint:recommended
+    // 'no-unused-labels': 2,
     // 'no-useless-call': 0,
     // 'no-useless-concat': 0,
     // 'no-useless-escape': 0,
@@ -149,13 +149,13 @@ module.exports = {
     // ---------------------------------------
     // 'init-declarations': 0,
     // 'no-catch-shadow': 0,
-    // 'no-delete-var': 2, // eslint:recommended
+    // 'no-delete-var': 2,
     // 'no-label-var': 0,
     // 'no-restricted-globals': 0,
     // 'no-shadow-restricted-names': 0,
     // 'no-shadow': 0,
     // 'no-undef-init': 0,
-    // 'no-undef': 2, // eslint:recommended
+    // 'no-undef': 2,
     // 'no-undefined': 0,
     'no-unused-vars': [
       2, {
@@ -187,7 +187,7 @@ module.exports = {
     'array-bracket-spacing': [2, 'never'],
     // 'block-spacing': 0,
     'brace-style': [2, '1tbs'],
-    'camelcase': [2, { properties: 'always' }],
+    'camelcase': [2, {properties: 'always'}],
     'comma-dangle': [2, 'only-multiline'],
     'comma-spacing': 2,
     'comma-style': 2,
@@ -226,7 +226,13 @@ module.exports = {
     // 'max-statements': 0,
     // 'multiline-ternary': 0,
     // operator appearing at the end of the line.
-    'new-cap': 2,
+    'new-cap': [
+      2, {
+        'newIsCap': true,
+        'capIsNew': false,
+        'properties': true
+      }
+    ],
     // 'new-parens': 0,
     // 'newline-after-var': 0,
     // 'newline-before-return': 0,
@@ -237,8 +243,8 @@ module.exports = {
     // 'no-inline-comments': 0,
     // 'no-lonely-if': 0,
     // 'no-mixed-operators': 0,
-    'no-mixed-spaces-and-tabs': 2, // eslint:recommended
-    'no-multiple-empty-lines': [2, { max: 2 }],
+    'no-mixed-spaces-and-tabs': 2,
+    'no-multiple-empty-lines': [2, {max: 2}],
     // 'no-negated-condition': 0,
     // 'no-nested-ternary': 0,
     'no-new-object': 2,
@@ -265,7 +271,7 @@ module.exports = {
     // 'operator-linebreak': 0,
     'padded-blocks': [2, 'never'],
     'quote-props': [2, 'consistent'],
-    'quotes': [1, 'single', { allowTemplateLiterals: true }],
+    'quotes': [1, 'single', {allowTemplateLiterals: true}],
     'require-jsdoc': [
       1, {
         require: {
@@ -290,7 +296,7 @@ module.exports = {
     // 'space-in-parens': 0,
     // 'space-infix-ops': 0,
     // 'space-unary-ops': 0,
-    // 'spaced-comment': 0,
+    'spaced-comment': 0,
     // 'unicode-bom': 0,
     // 'wrap-regex': 0,
 
@@ -300,16 +306,16 @@ module.exports = {
     // 'arrow-body-style': 0,
     'arrow-parens': [2, 'always'],
     // 'arrow-spacing': 0,
-    // 'constructor-super': 2, // eslint:recommended
+    // 'constructor-super': 2,
     'generator-star-spacing': [2, 'after'],
     // 'no-class-assign': 0,
     // 'no-confusing-arrow': 0,
-    // 'no-const-assign': 0, // eslint:recommended
-    // 'no-dupe-class-members': 0, // eslint:recommended
+    // 'no-const-assign': 0,
+    // 'no-dupe-class-members': 0,
     // 'no-duplicate-imports': 0,
     'no-new-symbol': 2,
     // 'no-restricted-imports': 0,
-    // 'no-this-before-super': 2,  // eslint:recommended
+    // 'no-this-before-super': 2,
     // 'no-useless-computed-key': 0,
     // 'no-useless-constructor': 0,
     // 'no-useless-rename': 0,
@@ -322,7 +328,7 @@ module.exports = {
     'prefer-rest-params': 2,
     'prefer-spread': 2,
     // 'prefer-template': 0,
-    // 'require-yield': 2, // eslint:recommended
+    // 'require-yield': 2,
     'rest-spread-spacing': 2,
     // 'sort-imports': 0,
     // 'symbol-description': 0,
@@ -336,6 +342,7 @@ module.exports = {
     'node': true,
   },
   'globals': {
+    'dw': true,
     'HTTPClient': true,
     'HTTPService': true,
     'importPackage': true,
