@@ -355,6 +355,7 @@ module.exports = {
     'PipelineDictionary': true,
     'request': true,
     'response': true,
+    'session': true,
     'ServiceRegistry': true,
     'Site': true,
   },
