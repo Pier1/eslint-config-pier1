@@ -63,7 +63,7 @@ module.exports = {
         requireParamDescription: false,
         requireReturnDescription: false,
         requireReturn: false,
-        prefer: {returns: 'return'},
+        prefer: { returns: 'return' },
       }
     ],
     // 'valid-typeof': 2
@@ -79,7 +79,6 @@ module.exports = {
     // 'complexity': 0,
     // 'consistent-return': 0
     // 'curly': 0,
-    // the exception of simple, single-line if statements.
     // 'default-case': 0,
     // 'dot-location': 0,
     // 'dot-notation': 0,
@@ -187,7 +186,7 @@ module.exports = {
     'array-bracket-spacing': [2, 'never'],
     // 'block-spacing': 0,
     'brace-style': [2, '1tbs'],
-    'camelcase': [2, {properties: 'always'}],
+    'camelcase': [2, { properties: 'always' }],
     'comma-dangle': [2, 'only-multiline'],
     'comma-spacing': 2,
     'comma-style': 2,
@@ -202,7 +201,6 @@ module.exports = {
     // 'id-length': 0,
     // 'id-match': 0,
     // 'indent': 0,
-    // Pier 1 Import's 4-space indent for line continuations.
     // 'jsx-quotes': 0,
     'key-spacing': 2,
     'keyword-spacing': 2,
@@ -225,7 +223,6 @@ module.exports = {
     // 'max-statements-per-line': 0,
     // 'max-statements': 0,
     // 'multiline-ternary': 0,
-    // operator appearing at the end of the line.
     'new-cap': [
       2, {
         'newIsCap': true,
@@ -244,7 +241,7 @@ module.exports = {
     // 'no-lonely-if': 0,
     // 'no-mixed-operators': 0,
     'no-mixed-spaces-and-tabs': 2,
-    'no-multiple-empty-lines': [2, {max: 2}],
+    'no-multiple-empty-lines': [2, { max: 2 }],
     // 'no-negated-condition': 0,
     // 'no-nested-ternary': 0,
     'no-new-object': 2,
@@ -271,7 +268,7 @@ module.exports = {
     // 'operator-linebreak': 0,
     'padded-blocks': [2, 'never'],
     'quote-props': [2, 'consistent'],
-    'quotes': [1, 'single', {allowTemplateLiterals: true}],
+    'quotes': [1, 'single', { allowTemplateLiterals: true }],
     'require-jsdoc': [
       1, {
         require: {
@@ -337,20 +334,28 @@ module.exports = {
   },
   'env': {
     'browser': true,
+    'commonjs': true,
     'es6': true,
     'jquery': true,
     'node': true,
+    'mocha': true,
+    'phantomjs': true,
   },
   'globals': {
+
+    'ko': true,
+    'module': true,
+
+    /* Demandware Globals
+     =============================== */
     'dw': true,
     'HTTPClient': true,
     'HTTPService': true,
     'importPackage': true,
-    'ko': true,
-    'module': true,
     'PIPELET_NEXT': true,
     'PipelineDictionary': true,
-    'require': true,
+    'request': true,
+    'response': true,
     'ServiceRegistry': true,
     'Site': true,
   },
