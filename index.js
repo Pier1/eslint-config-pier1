@@ -157,7 +157,7 @@ module.exports = {
     // 'no-undef': 2,
     // 'no-undefined': 0,
     'no-unused-vars': [
-      2, {
+      1, {
         'vars': 'local',
         'args': 'none',
         'varsIgnorePattern': 'execute',
@@ -316,7 +316,7 @@ module.exports = {
     // 'no-useless-computed-key': 0,
     // 'no-useless-constructor': 0,
     // 'no-useless-rename': 0,
-    'no-var': 1,
+    // 'no-var': 0,
     // 'object-shorthand': 0,
     // 'prefer-arrow-callback': 0,
     // 'prefer-const': 0,
@@ -342,7 +342,6 @@ module.exports = {
     'phantomjs': true,
   },
   'globals': {
-
     'ko': true,
     'module': true,
 
