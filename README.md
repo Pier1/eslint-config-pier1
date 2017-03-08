@@ -6,7 +6,7 @@
 ## Installation
 
 ```
-$ npm install --save-dev eslint eslint-config-pier1
+$ npm install --save-dev eslint bable-eslint eslint-config-pier1
 ```
 
 
