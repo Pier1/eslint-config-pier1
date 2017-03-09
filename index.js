@@ -356,6 +356,7 @@ module.exports = {
     'request': true,
     'response': true,
     'session': true,
+    'Service': true,
     'ServiceRegistry': true,
     'Site': true,
   },
