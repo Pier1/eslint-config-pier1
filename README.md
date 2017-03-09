@@ -16,7 +16,7 @@ Once the `eslint-config-pier1` package is installed, you can use it by specifyin
 
 ```js
 {
-  "extends": "eslint-config-pier1",
+  "extends": "pier1",
   "rules": {
     // Additional, per-project rules...
   },
@@ -34,7 +34,7 @@ To use Pier 1 Imports style in conjunction with ESLint's recommended rule set, e
 
 ```js
 {
-  "extends": ["eslint:recommended", "eslint-config-pier1"],
+  "extends": ["eslint:recommended", "pier1"],
   "rules": {
     // Additional, per-project rules...
   },
