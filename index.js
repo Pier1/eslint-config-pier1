@@ -227,7 +227,7 @@ module.exports = {
       2, {
         'newIsCap': true,
         'capIsNew': false,
-        'properties': true
+        'properties': true,
       }
     ],
     // 'new-parens': 0,
@@ -268,7 +268,10 @@ module.exports = {
     // 'operator-linebreak': 0,
     'padded-blocks': [2, 'never'],
     'quote-props': [2, 'consistent'],
-    'quotes': [1, 'single', { allowTemplateLiterals: true }],
+    'quotes': [
+      1,
+      'single', { allowTemplateLiterals: true }
+    ],
     // 'require-jsdoc': [
     //   1, {
     //     require: {
@@ -287,7 +290,7 @@ module.exports = {
       2, {
         'anonymous': 'always',
         'named': 'never',
-        'asyncArrow': 'never'
+        'asyncArrow': 'never',
       }
     ],
     // 'space-in-parens': 0,
@@ -344,22 +347,6 @@ module.exports = {
   },
   'globals': {
     'ko': true,
-    'module': true,
-
-    /* Demandware Globals
-     =============================== */
-    // 'dw': true,
-    // 'HTTPClient': true,
-    // 'HTTPService': true,
-    // 'importPackage': true,
-    // 'PIPELET_NEXT': true,
-    // 'PipelineDictionary': true,
-    // 'request': true,
-    // 'response': true,
-    // 'session': true,
-    // 'Service': true,
-    // 'ServiceRegistry': true,
-    // 'Site': true,
   },
   'parser': 'babel-eslint',
 };
