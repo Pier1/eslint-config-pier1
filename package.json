@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pier1",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "ESLint shareable config for Pier 1 Imports",
   "license": "Apache-2.0",
   "repository": "pier1/eslint-config-pier1",
@@ -34,7 +34,7 @@
   ],
   "devDependencies": {
     "eslint": "^3.8.1",
-    "eslint-plugin-demandware": "^0.0.3"
+    "eslint-plugin-demandware": "^0.0.2"
   },
   "peerDependencies": {
     "eslint": ">=3.8.1"
