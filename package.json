@@ -34,7 +34,7 @@
   ],
   "devDependencies": {
     "eslint": "^3.8.1",
-    "eslint-plugin-demandware": "^0.0.2"
+    "eslint-plugin-demandware": "^0.0.4"
   },
   "peerDependencies": {
     "eslint": ">=3.8.1"
