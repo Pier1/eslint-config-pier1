@@ -335,6 +335,7 @@ module.exports = {
   'env': {
     'browser': true,
     'commonjs': true,
+    'demandware': true,
     'es6': true,
     'jquery': true,
     'node': true,
@@ -347,18 +348,18 @@ module.exports = {
 
     /* Demandware Globals
      =============================== */
-    'dw': true,
-    'HTTPClient': true,
-    'HTTPService': true,
-    'importPackage': true,
-    'PIPELET_NEXT': true,
-    'PipelineDictionary': true,
-    'request': true,
-    'response': true,
-    'session': true,
-    'Service': true,
-    'ServiceRegistry': true,
-    'Site': true,
+    // 'dw': true,
+    // 'HTTPClient': true,
+    // 'HTTPService': true,
+    // 'importPackage': true,
+    // 'PIPELET_NEXT': true,
+    // 'PipelineDictionary': true,
+    // 'request': true,
+    // 'response': true,
+    // 'session': true,
+    // 'Service': true,
+    // 'ServiceRegistry': true,
+    // 'Site': true,
   },
   'parser': 'babel-eslint',
 };

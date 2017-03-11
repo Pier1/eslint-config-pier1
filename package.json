@@ -8,8 +8,7 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "files": [
     "index.js"
   ],
@@ -34,7 +33,8 @@
     "hint"
   ],
   "devDependencies": {
-    "eslint": "^3.8.1"
+    "eslint": "^3.8.1",
+    "eslint-plugin-demandware": "0.0.0"
   },
   "peerDependencies": {
     "eslint": ">=3.8.1"
