@@ -49,4 +49,4 @@ To see how the `pier1` config compares with `eslint:recommended`, refer to the [
 
 ## License
 
-Apache-2 © Pier 1 Imports, Inc.
+Licensed under the [MIT License](LICENSE).
