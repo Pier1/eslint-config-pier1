@@ -50,3 +50,5 @@ To see how the `pier1` config compares with `eslint:recommended`, refer to the [
 ## License
 
 Licensed under the [MIT License](LICENSE).
+
+Copyright (c) 2017 Pier 1 Imports, Inc.
