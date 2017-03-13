@@ -54,7 +54,7 @@ To see how the `pier1` config compares with `eslint:recommended`, refer to the [
 
 Demandware has numerous globals that need to be defined so that ESLint will not warn about their usage.
 
-Once the [`eslint-plugin-demandware`](http://github.com/ariyalabs/eslint-plugin-demandware) package is installed, you can use it by specifying `demandware` in the [`plugins`](http://eslint.org/docs/user-guide/configuring#configuring-plugins) section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
+Once the [`eslint-plugin-demandware`](http://github.com/ariyalabs/eslint-plugin-demandware) package is installed, you can use it by specifying `demandware` in the [`plugins`](http://eslint.org/docs/user-guide/configuring#configuring-plugins) and `demandware/demandware` in the [`env`](http://eslint.org/docs/user-guide/configuring#specifying-environments) section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
 
 ```js
 {
