@@ -46,6 +46,31 @@ To use Pier 1 Imports style in conjunction with ESLint's recommended rule set, e
 
 To see how the `pier1` config compares with `eslint:recommended`, refer to the [source code of `index.js`](https://github.com/pier1/eslint-config-pier1/blob/master/index.js), which lists every ESLint rule along with whether (and how) it is enforced by the `pier1` config.
 
+### Using the `pier1` config with [`eslint-plugin-demandware`](http://github.com/ariyalabs/eslint-plugin-demandware)
+
+Demandware has numerous globals that need to be defined so that ESLint will not warn about their usage.
+
+Once the [`eslint-plugin-demandware`](http://github.com/ariyalabs/eslint-plugin-demandware) package is installed, you can use it by specifying `demandware` in the [`plugins`](http://eslint.org/docs/user-guide/configuring#configuring-plugins) section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
+
+```js
+{
+  "extends": ["eslint:recommended"], "pier1",
+  "rules": {
+    // Additional, per-project rules...
+  },
+  "plugins": [
+    // Additional, per-project plugins...
+    "demandware"
+  ],
+  "env": {
+    // Additional, per-project environments...
+    "demandware/demandware": true
+  },
+  "globals": {
+    // Additional, per-project `no-undef` ignores...
+  }
+}
+```
 
 ## License
 
