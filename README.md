@@ -1,4 +1,8 @@
-# eslint-config-pier1 [![Build Status](https://travis-ci.org/pier1/eslint-config-pier1.svg?branch=master)](https://travis-ci.org/pier1/eslint-config-pier1)
+# eslint-config-pier1
+
+[![Build Status](https://travis-ci.org/pier1/eslint-config-pier1.svg?branch=master)](https://travis-ci.org/pier1/eslint-config-pier1)
+[![npm version](https://img.shields.io/npm/v/bootstrap.svg)](https://www.npmjs.com/package/eslint-config-pier1)
+[![devDependencies Status](https://david-dm.org/ariyalabs/eslint-plugin-demandware/dev-status.svg)](https://david-dm.org/pier1/eslint-config-pier1?type=dev)
 
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html)
 
