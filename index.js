@@ -338,7 +338,6 @@ module.exports = {
   'env': {
     'browser': true,
     'commonjs': true,
-    'demandware': true,
     'es6': true,
     'jquery': true,
     'node': true,
