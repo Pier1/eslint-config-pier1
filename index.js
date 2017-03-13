@@ -325,7 +325,7 @@ module.exports = {
     // 'prefer-const': 0,
     // 'prefer-numeric-literals': 0,
     // 'prefer-reflect': 0,
-    'prefer-rest-params': 2,
+    // 'prefer-rest-params': 0,
     'prefer-spread': 2,
     // 'prefer-template': 0,
     // 'require-yield': 2,
