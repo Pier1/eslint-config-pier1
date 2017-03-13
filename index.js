@@ -187,7 +187,7 @@ module.exports = {
     // 'block-spacing': 0,
     'brace-style': [2, '1tbs'],
     'camelcase': [2, { properties: 'always' }],
-    'comma-dangle': [1, 'only-multiline'],
+    'comma-dangle': [2, 'only-multiline'],
     'comma-spacing': 2,
     'comma-style': 2,
     'computed-property-spacing': 2,
