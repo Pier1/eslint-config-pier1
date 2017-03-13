@@ -16,7 +16,7 @@ $ npm install --save-dev eslint babel-eslint eslint-config-pier1
 
 ## Usage
 
-Once the `eslint-config-pier1` package is installed, you can use it by specifying `pier1` in the [`extends`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
+Once the [`eslint-config-pier1`](http://github.com/Pier1/eslint-config-pier1) package is installed, you can use it by specifying `pier1` in the [`extends`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
 
 ```js
 {
