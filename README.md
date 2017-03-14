@@ -58,7 +58,7 @@ Once the [`eslint-plugin-demandware`](http://github.com/ariyalabs/eslint-plugin-
 
 ```js
 {
-  "extends": ["eslint:recommended"], "pier1",
+  "extends": ["eslint:recommended", "pier1"],
   "rules": {
     // Additional, per-project rules...
   },
