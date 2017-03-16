@@ -345,6 +345,7 @@ module.exports = {
     'phantomjs': true,
   },
   'globals': {
+    'app': true,
     'ko': true,
   },
   'parser': 'babel-eslint',
