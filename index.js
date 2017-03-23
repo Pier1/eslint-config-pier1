@@ -102,7 +102,7 @@ module.exports = {
     // 'no-implicit-coercion': 0,
     // 'no-implicit-globals': 0,
     // 'no-implied-eval': 0,
-    // 'no-invalid-this': 0,
+    'no-invalid-this': 0,
     // 'no-iterator': 0,
     // 'no-labels': 0,
     // 'no-lone-blocks': 0,
@@ -209,13 +209,7 @@ module.exports = {
     // 'lines-around-comment': 0,
     // 'lines-around-directive': 0,
     // 'max-depth': 0,
-    'max-len': [
-      1, {
-        code: 100,
-        tabWidth: 2,
-        ignoreUrls: true,
-        ignorePattern: '',
-      }
+    'max-len': 0
     ],
     // 'max-lines': 0,
     // 'max-nested-callbacks': 0,
