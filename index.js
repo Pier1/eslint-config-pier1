@@ -209,8 +209,7 @@ module.exports = {
     // 'lines-around-comment': 0,
     // 'lines-around-directive': 0,
     // 'max-depth': 0,
-    'max-len': 0
-    ],
+    'max-len': 0,
     // 'max-lines': 0,
     // 'max-nested-callbacks': 0,
     // 'max-params': 0,
