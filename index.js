@@ -338,6 +338,7 @@ module.exports = {
     'phantomjs': true,
   },
   'globals': {
+    '_': true,
     'app': true,
     'ko': true,
   },
