@@ -1,5 +1,5 @@
 {
-  "name": "@pier1/eslint-config-pier1",
+  "name": "eslint-config-pier1",
   "version": "0.0.29",
   "description": "ESLint shareable config for Pier 1 Imports",
   "license": "MIT",
