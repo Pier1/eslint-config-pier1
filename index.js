@@ -249,7 +249,7 @@ module.exports = {
     // 'object-curly-newline': 0,
     'object-curly-spacing': 2,
     // 'object-property-newline': 0,
-    'one-var-declaration-per-line': [1, 'always']
+    'one-var-declaration-per-line': [1, 'always'],
     'one-var': [
       1, {
         var: 'always',
