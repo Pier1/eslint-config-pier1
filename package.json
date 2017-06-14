@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pier1",
-  "version": "0.0.34",
+  "version": "0.0.35",
   "description": "ESLint shareable config for Pier 1 Imports",
   "license": "MIT",
   "repository": "pier1/eslint-config-pier1",
