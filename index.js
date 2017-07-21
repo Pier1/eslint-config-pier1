@@ -206,7 +206,11 @@ module.exports = {
     // 'id-blacklist': 0,
     // 'id-length': 0,
     // 'id-match': 0,
-    // 'indent': 0,
+    'indent': [
+      2,
+      2,
+      { 'SwitchCase': 1 }
+    ],
     // 'jsx-quotes': 0,
     'key-spacing': 2,
     'keyword-spacing': 2,
