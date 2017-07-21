@@ -192,7 +192,7 @@ module.exports = {
     'array-bracket-spacing': [2, 'never'],
     // 'block-spacing': 0,
     'brace-style': [2, '1tbs'],
-    'camelcase': [2, { properties: 'always' }],
+    // 'camelcase': 0,
     'comma-dangle': [2, 'only-multiline'],
     'comma-spacing': 2,
     'comma-style': 2,
