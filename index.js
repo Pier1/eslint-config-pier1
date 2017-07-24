@@ -49,7 +49,7 @@ module.exports = {
     // 'no-ex-assign': 2,
     // 'no-extra-boolean-cast': 2,
     // 'no-extra-parens': 0,
-    // 'no-extra-semi': 2,
+    'no-extra-semi': 0,
     // 'no-func-assign': 2,
     // 'no-inner-declarations': 2,
     // 'no-invalid-regexp': 2,
@@ -89,7 +89,7 @@ module.exports = {
     // 'dot-location': 0,
     // 'dot-notation': 0,
     'eqeqeq': 0,
-    'guard-for-in': 2,
+    'guard-for-in': 0,
     // 'no-alert': 0,
     'no-caller': 2,
     // 'no-case-declarations': 2,
@@ -123,7 +123,7 @@ module.exports = {
     // 'no-octal': 2,
     // 'no-param-reassign': 0,
     // 'no-proto': 0,
-    // 'no-redeclare': 2,
+    'no-redeclare': 0,
     // 'no-return-assign': 0,
     // 'no-script-url': 0,
     // 'no-self-assign': 2,
@@ -189,7 +189,7 @@ module.exports = {
     // Stylistic Issues
     // http://eslint.org/docs/rules/#stylistic-issues
     // ----------------------------------------------
-    'array-bracket-spacing': [2, 'never'],
+    'array-bracket-spacing': [0, 'never'],
     // 'block-spacing': 0,
     'brace-style': [0, '1tbs'],
     // 'camelcase': 0,
@@ -244,7 +244,7 @@ module.exports = {
     // 'no-lonely-if': 0,
     // 'no-mixed-operators': 0,
     'no-mixed-spaces-and-tabs': 0,
-    'no-multiple-empty-lines': [2, { max: 2 }],
+    'no-multiple-empty-lines': [0, { max: 2 }],
     // 'no-negated-condition': 0,
     // 'no-nested-ternary': 0,
     'no-new-object': 2,
@@ -264,7 +264,7 @@ module.exports = {
     // 'operator-assignment': 0,
     // 'operator-linebreak': 0,
     'padded-blocks': [0, 'never'],
-    'quote-props': [2, 'consistent'],
+    'quote-props': [0, 'consistent'],
     'quotes': [
       0,
       'single', { allowTemplateLiterals: true }
