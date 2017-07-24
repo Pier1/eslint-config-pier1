@@ -72,7 +72,7 @@ module.exports = {
     //     prefer: { returns: 'return' },
     //   }
     // ],
-    // 'valid-typeof': 2
+    'valid-typeof': 0,
 
     // Best Practices
     // http://eslint.org/docs/rules/#best-practices
