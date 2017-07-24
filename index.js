@@ -163,7 +163,7 @@ module.exports = {
     // 'no-undef': 2,
     // 'no-undefined': 0,
     'no-unused-vars': [
-      1, {
+      0, {
         'vars': 'local',
         'args': 'none',
         'varsIgnorePattern': 'execute',
@@ -250,7 +250,7 @@ module.exports = {
     'no-new-object': 2,
     // 'no-plusplus': 0,
     // 'no-restricted-syntax': 0,
-    'no-tabs': 2,
+    'no-tabs': 0,
     // 'no-ternary': 0,
     // 'no-trailing-spaces': 0,
     // 'no-underscore-dangle': 0,
@@ -259,14 +259,14 @@ module.exports = {
     // 'object-curly-newline': 0,
     'object-curly-spacing': [2, 'always'],
     // 'object-property-newline': 0,
-    'one-var-declaration-per-line': [1, 'always'],
+    'one-var-declaration-per-line': [0, 'always'],
     'one-var': "off",
     // 'operator-assignment': 0,
     // 'operator-linebreak': 0,
     'padded-blocks': [2, 'never'],
     'quote-props': [2, 'consistent'],
     'quotes': [
-      1,
+      0,
       'single', { allowTemplateLiterals: true }
     ],
     // 'require-jsdoc': [
