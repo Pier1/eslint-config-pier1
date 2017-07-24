@@ -191,7 +191,7 @@ module.exports = {
     // ----------------------------------------------
     'array-bracket-spacing': [2, 'never'],
     // 'block-spacing': 0,
-    'brace-style': [2, '1tbs'],
+    'brace-style': [0, '1tbs'],
     // 'camelcase': 0,
     'comma-dangle': [2, 'only-multiline'],
     'comma-spacing': 2,
@@ -207,13 +207,13 @@ module.exports = {
     // 'id-length': 0,
     // 'id-match': 0,
     'indent': [
-      2,
+      0,
       2,
       { 'SwitchCase': 1 }
     ],
     // 'jsx-quotes': 0,
     'key-spacing': 2,
-    'keyword-spacing': 2,
+    'keyword-spacing': 0,
     // 'line-comment-position': 0,
     'linebreak-style': 0,
     // 'lines-around-comment': 0,
@@ -243,7 +243,7 @@ module.exports = {
     // 'no-inline-comments': 0,
     // 'no-lonely-if': 0,
     // 'no-mixed-operators': 0,
-    'no-mixed-spaces-and-tabs': 2,
+    'no-mixed-spaces-and-tabs': 0,
     'no-multiple-empty-lines': [2, { max: 2 }],
     // 'no-negated-condition': 0,
     // 'no-nested-ternary': 0,
@@ -282,9 +282,9 @@ module.exports = {
     'semi': 2,
     // 'sort-keys': 0,
     // 'sort-vars': 0,
-    'space-before-blocks': 2,
+    'space-before-blocks': 0,
     'space-before-function-paren': [
-      2, {
+      0, {
         'anonymous': 'always',
         'named': 'never',
         'asyncArrow': 'never',
