@@ -129,7 +129,7 @@ module.exports = {
     // 'no-self-assign': 2,
     // 'no-self-compare': 0,
     // 'no-sequences': 0,
-    'no-throw-literal': 2,
+    'no-throw-literal': 0,
     // 'no-unmodified-loop-condition': 0,
     // 'no-unused-expressions': 0,
     // 'no-unused-labels': 2,
@@ -227,7 +227,7 @@ module.exports = {
     // 'max-statements': 0,
     // 'multiline-ternary': 0,
     'new-cap': [
-      2, {
+      0, {
         'newIsCap': true,
         'capIsNew': false,
         'properties': true,
@@ -278,8 +278,8 @@ module.exports = {
     //     },
     //   }
     // ],
-    'semi-spacing': 2,
-    'semi': 2,
+    'semi-spacing': 0,
+    'semi': 0,
     // 'sort-keys': 0,
     // 'sort-vars': 0,
     'space-before-blocks': 0,
