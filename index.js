@@ -135,7 +135,7 @@ module.exports = {
     // 'no-unused-labels': 2,
     // 'no-useless-call': 0,
     // 'no-useless-concat': 0,
-    // 'no-useless-escape': 0,
+    'no-useless-escape': 0,
     // 'no-void': 0,
     // 'no-warning-comments': 0,
     'no-with': 2,
