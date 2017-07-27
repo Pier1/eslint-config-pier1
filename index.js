@@ -37,7 +37,7 @@ module.exports = {
     // http://eslint.org/docs/rules/#possible-errors
     // ---------------------------------------------
     'no-cond-assign': 0,
-    'no-console': 1,
+    // 'no-console': 0,
     // 'no-constant-condition': 2,
     // 'no-control-regex': 2,
     // 'no-debugger': 2,
@@ -345,6 +345,9 @@ module.exports = {
     '_': true,
     'app': true,
     'ko': true,
+    "jquery": true,
+    "module": true,
+    "document": true,
   },
   'parser': 'babel-eslint',
 };
